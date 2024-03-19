@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Choukri's Portfolio</title>
+    </head>
+
+    <body>
+        <nav>
+            <a class="logo" href="index.html">Choukri HARRAB</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+            <button class="btn" onclick="openForm()"><a class="btn-hire">Hire Me</a></button>
+        </nav>
+        <main>
+            <div class="intro white-back" id="about">
+                <h1 class="title">Hi, I'm <span class="myName">Choukri HARRAB.</span></h1>
+                <h2 class="sub-title">Creative FullStack Web Developer</h2>
+                <p class="description afacad">
+                    I Design and Code Performante and Eye-catching websites! And I'm passionate about it.
+                    <br>
+                    I am methodical. I've got a tight system to keep my workflow as smooth as possible.
+                    <br>
+                    I'm sharp. To me time is as important as the quality I'm providing.
+                    <br>
+                    and I have a thing for tidy and well constructed designs!
+                </p>
+
+                <div class="resume">
+                    <button class="btn show"><a class=" btn-hire" href="/assets/ChoukriHarrab.pdf" target="_blank">Show Resume</a></button>
+                    <button class="btn down"><a class=" btn-hire-rev" href="/assets/ChoukriHarrab.pdf"
+                            download="Choukri_HARRAB-Resume">Download Resume </a></button>
+                </div>
+
+                <a class="pos-1" href="#skills"><i class='bx bx-chevrons-down arrow '></i></a>
+
+            </div>
+            <div id="skills">
+                <h1 class="mySkills sub-title">My Skills</h1>
+                <div class="box">
+                    <div class="left">
+                        <h1 class="box-title">What are my programming skills?</h1>
+                        <p class="description">I develop complex, intuitive and responsive user interface that helps users
+                            get
+                            things done with less effort and enjoy a smooth user experience</p>
+                        <button class="btn btn-rev" onclick="openForm()"><a class="btn-hire-rev">Hire Me</a></button>
+                    </div>
+                    <div class="right">
+                        <i class='bx bxl-html5 html'></i>
+                        <i class='bx bxl-css3 css'></i>
+                        <i class='bx bxl-javascript javascript'></i>
+                        <i class='bx bxl-tailwind-css tailwind'></i>
+                        <i class='bx bxl-typescript typescript'></i>
+                        <i class='bx bxl-angular angular'></i>
+                        <i class='bx bxl-java java'></i>
+                        <i class='bx bxl-spring-boot spring'></i>
+                        <i class='bx bxl-git git'></i>
+                    </div>
+
+                </div>
+                <a class="pos-2 " href="#projects"><i class="bx bx-chevrons-down arrow arrow-white"></i></a>
+            </div>
+            <div class="projects" id="projects">
+                <h2 class="projects-title mySkills sub-title">Projects</h2>
+                <div class="main-projects">
+                    <div class="project-wrapper">
+                        <div class="tabs">
+                            <h3 class="tab active">The Collaborative Storyteller</h3>
+                            <h3 class="tab">Library Management System</h3>
+                            <h3 class="tab">Personal Finance Tracker</h3>
+                            <h3 class="tab">To-Do Application</h3>
+                        </div>
+
+                        <div class="tab-content show-content">
+                            <div class="flex-col">
+                                <div class="col-1">
+                                    <h3 class="tab-content-title">Features</h3>
+                                    <div class="tab-content-list">
+                                        <p>Collaborative Writing</p>
+                                        <p>Automatic File Saves</p>
+                                        <p>Author Tracking</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-2">
+                                    <h3 class="tab-content-title">Accomplishments</h3>
+                                    <div class="tab-content-list">
+                                        <p>Seamless Progress Persistence</p>
+                                        <p>User Recognition</p>
+                                        <p>Enhanced User Engagement</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="project-links">
+                                <p class="catch-phrase">Explore storytelling like never before!</p>
+                                <a class="git-link"
+                                    href="https://github.com/choukriharrab/ArkXChallenges/tree/master/src/Day11">
+                                    <i class='bx bx-link'></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="flex-col">
+                                <div class="col-1">
+                                    <h3 class="tab-content-title">Features</h3>
+                                    <div class="tab-content-list">
+                                        <p>Efficient Book Management</p>
+                                        <p>Advanced Functionality</p>
+                                        <p>Enhanced User Experience</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-2">
+                                    <h3 class="tab-content-title">Accomplishments</h3>
+                                    <div class="tab-content-list">
+                                        <p>Streamlined Operations</p>
+                                        <p>Optimized User Interaction</p>
+                                        <p>Reliable Data Handling</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="project-links">
+                                <p class="catch-phrase">Delivering a reliable and efficient solution for book management
+                                    needs.</p>
+                                <a class="git-link" href="https://github.com/choukriharrab/eIP">
+                                    <i class='bx bx-link'></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="flex-col">
+                                <div class="col-1">
+                                    <h3 class="tab-content-title">Features</h3>
+                                    <div class="tab-content-list">
+                                        <p>Income & Expense Management</p>
+                                        <p>Transaction History</p>
+                                        <p>Financial Reporting</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-2">
+                                    <h3 class="tab-content-title">Accomplishments</h3>
+                                    <div class="tab-content-list">
+                                        <p>Comprehensive Financial Tracking</p>
+                                        <p>User-Friendly Interface</p>
+                                        <p>Efficient Reporting</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-links">
+                                <p class="catch-phrase">Take charge of your finances effortlessly!</p>
+                                <a class="git-link" href="https://github.com/choukriharrab/PersonalFinancialTracker">
+                                    <i class='bx bx-link'></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="flex-col">
+                                <div class="col-1">
+                                    <h3 class="tab-content-title">Features</h3>
+                                    <div class="tab-content-list">
+                                        <p>Task Creation & Organization</p>
+                                        <p>Reminders and Notifications</p>
+                                        <p>User Authentication</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-2">
+                                    <h3 class="tab-content-title">Accomplishments</h3>
+                                    <div class="tab-content-list">
+                                        <p>Efficient Task Management</p>
+                                        <p>Scalability and Flexibility</p>
+                                        <p>Enhanced User Experience</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-links">
+                                <p class="catch-phrase">Seize your day with our intuitive To-Do App!!</p>
+                                <a class="git-link"
+                                    href="https://github.com/choukriharrab/ArkXChallenges/tree/master/src/Day11">
+                                    <i class='bx bx-link'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="pos-3" href="#services"><i class='bx bx-chevrons-down arrow '></i></a>
+            </div>
+
+            <div class="services skills" id="services">
+                <h1 class="mySkills sub-title">Provided Services</h1>
+                <div class="offers">
+                    <div class="offer">
+                        <div class="inline">
+                            <i class='bx bxl-dev-to icon'></i>
+                            <h3 class="offer-title">Website Development</h3>
+                        </div>
+
+                        <p class="offer-description">Offering web development services for creating visually appealing and
+                            user-friendly websites. Proficient in HTML, CSS, JavaScript, and Angular, with a dedication to
+                            delivering high-quality results tailored to client needs.</p>
+                    </div>
+                    <div class="offer">
+                        <div class="inline">
+                            <i class='bx bxl-sketch icon'></i>
+                            <h3 class="offer-title">Website Design</h3>
+                        </div>
+                        <p class="offer-description">Providing custom web design solutions for captivating and intuitive
+                            online experiences. Skilled in creating visually stunning layouts and user interfaces that
+                            resonate with target audiences. Let's bring your vision to life through thoughtful design and
+                            seamless functionality.</p>
+                    </div>
+                    <div class="offer">
+                        <div class="inline">
+                            <i class='bx bx-search-alt icon'></i>
+                            <h3 class="offer-title">SEO</h3>
+                        </div>
+                        <p class="offer-description">Specializing in SEO services to boost your online visibility and drive
+                            organic traffic. Leveraging proven strategies and best practices to improve search engine
+                            rankings and enhance brand presence. Let's optimize your website for success and reach your
+                            target audience effectively.</p>
+                    </div>
+                    <div class="offer">
+                        <div class="inline">
+                            <i class='bx bx-cog icon'></i>
+                            <h3 class="offer-title">Back-end Maintenance</h3>
+                        </div>
+                        <p class="offer-description">Offering comprehensive back-end monitoring services to ensure the
+                            smooth functioning and performance of your web applications. Utilizing advanced tools and
+                            proactive techniques to identify and resolve issues quickly, minimizing downtime and maximizing
+                            efficiency. Let's safeguard your backend infrastructure for optimal performance and reliability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact" id="contact">
+
+                <form class="pop-up" action="#" id="myForm">
+                    <button type="button" class="cancel" onclick="closeForm()"><i class='bx bx-x'></i></button>
+
+                    <h3 class="sub-title">Contact Us</h3>
+
+                    <div class="row">
+                        <label class="form-title" for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name..." required>
+                    </div>
+
+                    <div class="row">
+                        <label class="form-title" for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Write a subject..." required>
+                    </div>
+
+                    <div class="row">
+                        <label class="form-title" for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Write a subject..." required>
+                    </div>
+
+                    <div class="row">
+                        <label class="form-title" for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write something..." style="height:200px"
+                            required></textarea>
+                    </div>
+
+                    <input class="btn-lets" type="submit" value="Send">
+
+                </form>
+
+
+
+            </div>
+
+        </main>
+        <footer>
+            <div class="start">
+                <h3>Start a project</h3>
+                <p>Interested in working together?<br>
+                    Let's queue up a chat. The coffee's on me!</p>
+                <button class="btn-lets open-button" onclick="openForm()">Let's do this</button>
+
+            </div>
+            <div class="wrap">
+
+                <a class="logo" href="#">Choukri HARRAB</a>
+                <p class="description">Creative FullStack Developer</p>
+
+            </div>
+            <div class="links">
+
+                <a href="mailto:choukri.harrab@arkx.academy" class="social-media">
+                    <i class='bx bxl-gmail' ></i>
+                    <span>E-mail</span>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/choukriharrab/" class="social-media">
+                        <i class='bx bxl-linkedin-square linkedin'></i>
+                        <span>LinkedIn</span>
+                </a>
+
+                <a href="https://github.com/choukriharrab" class="social-media">
+                <i class='bx bxl-github github'></i>
+                <span>GitHub</span>
+                </a>
+                
+            </div>
+            
+        </footer>
+
+        <script src="scripts.js"></script>    
+    </body>
+</html>
